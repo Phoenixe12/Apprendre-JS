@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --decolage:9px;
+}
+header{
+background-color: blue;
+width: 100%;
+height: 70px;
+display: flex;
+flex-wrap: wrap;
+}
+.menu{
+    background-color: brown;
+    width: 60px;
+    height: 50px;
+    margin-top: var(--decolage);
+    margin-left: 20px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav{
+    background-color:yellow;
+    width: 40px;
+    height: 40px;
+    margin-top: var(--decolage);
+    margin-left: 85%;    
+}
+.bar{
+   width:37px;
+   height: 8px;
+   border-bottom:2px solid black ; 
+   margin-left:2px ;
+}
+aside{
+    background-color: tomato;
+    width: 270px;
+    height: 555px;
+    position: fixed;
+    left: -100vw;
+    transition: all .5s easep;
+}
